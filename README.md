@@ -1,8 +1,8 @@
-# Data Visualization Project
+# Data Visualization Project Proposal
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is the TMDB Top 5000 Movies data set mostly because the dataset contains tons of information that can be visualized in the interactive portion such as movie keywords, genres, taglines and revenue/production cost split and runtime info. This is plenty of information and should lead to some interesting conclusions if visualized nicely. 
 
 ## Prototypes
 
