@@ -15,10 +15,11 @@ I’ve created a proof of concept visualization of this data. It's a scatter plo
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Is there any particular Genre that dominates the top 100 or 50 movies, are there any outlier genres in this top section?
+ * Is there a corrilation between keywords for a movie, and the budget a movie requires, what keywords occur most often in the top 5000 movies?
+ * Which production companies tend to produce the best movies, is there a certain production company that creates a best reutrn on investment?
+ * What is the relation between popularity of a movie, and the runtime of the movie, do people really tend to prefer two-ish hour movies?
+ * What is the relation between genre and budget these top movies, is there a genre that is cheap to produce and always has a good return on investment?
 
 ## Sketches
 
@@ -27,6 +28,4 @@ The second chart is a scatterplot that shows the Revenue($) Vs Tagline length of
 
 ![vissketch](https://user-images.githubusercontent.com/44755928/134382090-286d9e1d-d209-49a9-91f8-89454eced42a.jpg)
 
-## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
