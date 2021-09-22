@@ -6,7 +6,7 @@ The data I propose to visualize for my project is the TMDB Top 5000 Movies data 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours.
+I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours. If I could improve this chart, I would work to fix any oclusion that is occuring with dots overlapping each other. This would hopefully provide more information to the viewer.
 
 ![TimevsRevenue](https://user-images.githubusercontent.com/44755928/134382327-76104927-3718-4496-96a1-bf448ae94763.PNG)
 
@@ -22,8 +22,8 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+Here are two sketches that show potential charts that could be made with the choosen dataset. The first shows the Budget($) Vs Revenue($) of the top grossing movies in the dataset. This would allow us to see how much money influneces the revenue a movie makes, and we could also see which movie had the best return on investment.  
+The second chart is a scatterplot that shows the Revenue($) Vs Tagline length of a movie. This could provide an interesting result and allow the viewer to see if better performing movies tend to have shorter or longer tagline. We could also improve this data to color it relative to how much certain words or ideas appear in the taglines. 
 
 ![vissketch](https://user-images.githubusercontent.com/44755928/134382090-286d9e1d-d209-49a9-91f8-89454eced42a.jpg)
 
