@@ -6,7 +6,7 @@ The data I propose to visualize for my project is the TMDB Top 5000 Movies data 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours.
 
 ![TimevsRevenue](https://user-images.githubusercontent.com/44755928/134382327-76104927-3718-4496-96a1-bf448ae94763.PNG)
 
