@@ -10,6 +10,19 @@ I’ve created a proof of concept visualization of this data. It's a scatter plo
 
 ![TimevsRevenue](https://user-images.githubusercontent.com/44755928/134382327-76104927-3718-4496-96a1-bf448ae94763.PNG)
 
+## Prototypes
+Based on the examples worked on last week, I think that having drop down menus to select what data is displayed on the X and Y Axis in the scatterplot makes sense as an interaction for this project, specifically because of the large number of data fields selectable.
+
+Another possible interaction I would like to implement is adding hoverable bubbles for each datapoint that would show you the movie title if that is not already displayed. That way, if there is a particular outlier, it would be easily identifyable for further research.
+
+## Schedule of Deliverables
+
+* Select Dataset for final project (DONE)
+* Decide on primary data visualization method (DONE - I have selected a scatterplot as the primary dat visualization method)
+* Refine Vizualization (1) - (DONE - Minor refinements such as ensuring the Axis titles are displaying, and making the data points semi-transparent )
+* Add Axis Selector Interaction - (Work in progress, I have a template and partial examples of how to implement, and working on that now, should be done by 10/15)
+* Add Hover Interaction - (TODO, I have the concept finished, and will do some research to determine how to implement, should be done by 10/20)
+* Refine Vizualization (2) - (TODO, Once the main interactions are added, I want to do a final run over and add color or refine the style, should be done by 10/22)
 
 ## Questions & Tasks
 
