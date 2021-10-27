@@ -12,6 +12,9 @@ I have added converted the scatter plots to be transparent to prevent data occlu
 
 ![image](https://user-images.githubusercontent.com/44755928/139132621-fa5113a2-7570-4963-9742-80b108016d24.png)
 
+I have also been working with the interactive menu to display different dat points based on the axis selected in the drop down menu. This is building upon the interactive menu information we learned about a couple of weeks ago. https://vizhub.com/T-Reiser/f9f8dac03e3b466eb4a0855be8474c11?file=index.js
+![image](https://user-images.githubusercontent.com/44755928/139162343-98709205-2e90-44ca-8577-1e525f9a77e0.png)
+
 
 I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours. If I could improve this chart, I would work to fix any oclusion that is occuring with dots overlapping each other. This would hopefully provide more information to the viewer.
 
