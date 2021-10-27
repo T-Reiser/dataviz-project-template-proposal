@@ -8,7 +8,7 @@ The data I propose to visualize for my project is the TMDB Top 5000 Movies data 
 
 ## UPDATES
 
-I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels.
+I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels. This iteration can currently be found at https://vizhub.com/T-Reiser/cf07600ad704409a96d2c251afd7b71b.
 
 ![image](https://user-images.githubusercontent.com/44755928/139132621-fa5113a2-7570-4963-9742-80b108016d24.png)
 
