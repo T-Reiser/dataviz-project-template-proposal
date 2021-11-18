@@ -7,8 +7,7 @@ The data I propose to visualize for my project is the TMDB Top 5000 Movies data 
 ## Prototypes
 
 ## UPDATES
-I have continued updating the top movies data visualization with a better color scheme and additional functionality. 
-
+I have continued updating the top movies data visualization with a better color scheme and additional functionality. My original goal for this project, was to be able to change the display chart to show interesting correlations in the dataset. One of the most interesting aspects of this project was the fact that the orignal Kaggle set included the taglines and keywords that were part of the marketing for all of these top movies. I was originally curious about the overlap for these, however it isnt practical to sort by keywords in a scatterplot, because there is huge variation, and the most common words would grammer articles. Additionally, I was hoping to display the length of these taglines as one of the data feilds, however I found that even sorting by the length doesnt produce an enticing graphical representation. Alot of the information in the dataset is irrelivant for our vizualizations, such as original language, spoken languages, and production origin company. One of the last things I will try is to parse the production companies for each movie, and maybe display the most common across the board. 
 
 I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels. This iteration can currently be found at https://vizhub.com/T-Reiser/cf07600ad704409a96d2c251afd7b71b.
 
