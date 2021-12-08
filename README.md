@@ -20,10 +20,10 @@ The following tasks and questions will drive the visualization and interaction d
 
 I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours. If I could improve this chart, I would work to fix any oclusion that is occuring with dots overlapping each other. This would hopefully provide more information to the viewer.
 
-I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels. This iteration can currently be found at https://vizhub.com/T-Reiser/cf07600ad704409a96d2c251afd7b71b.
 
 ![TimevsRevenue](https://user-images.githubusercontent.com/44755928/134382327-76104927-3718-4496-96a1-bf448ae94763.PNG)
 
+I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels. This iteration can currently be found at https://vizhub.com/T-Reiser/cf07600ad704409a96d2c251afd7b71b.
 
 ![image](https://user-images.githubusercontent.com/44755928/139132621-fa5113a2-7570-4963-9742-80b108016d24.png)
 
