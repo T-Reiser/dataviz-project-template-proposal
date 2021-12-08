@@ -4,6 +4,16 @@
 
 The data I propose to visualize for my project is the TMDB Top 5000 Movies data set mostly because the dataset contains tons of information that can be visualized in the interactive portion such as movie keywords, genres, taglines and revenue/production cost split and runtime info. This is plenty of information and should lead to some interesting conclusions if visualized nicely. 
 
+## Questions & Tasks
+
+The following tasks and questions will drive the visualization and interaction decisions for this project:
+
+ * Is there any particular Genre that dominates the top 100 or 50 movies, are there any outlier genres in this top section?
+ * Is there a corrilation between keywords for a movie, and the budget a movie requires, what keywords occur most often in the top 5000 movies?
+ * Which production companies tend to produce the best movies, is there a certain production company that creates a best reutrn on investment?
+ * What is the relation between popularity of a movie, and the runtime of the movie, do people really tend to prefer two-ish hour movies?
+ * What is the relation between genre and budget these top movies, is there a genre that is cheap to produce and always has a good return on investment?
+
 ## Prototypes
 
 ## UPDATES
@@ -35,16 +45,6 @@ Another possible interaction I would like to implement is adding hoverable bubbl
 * Add Axis Selector Interaction - (Work in progress, I have a template and partial examples of how to implement, and working on that now, should be done by 10/15)
 * Add Hover Interaction - (TODO, I have the concept finished, and will do some research to determine how to implement, should be done by 10/20)
 * Refine Vizualization (2) - (TODO, Once the main interactions are added, I want to do a final run over and add color or refine the style, should be done by 10/22)
-
-## Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-
- * Is there any particular Genre that dominates the top 100 or 50 movies, are there any outlier genres in this top section?
- * Is there a corrilation between keywords for a movie, and the budget a movie requires, what keywords occur most often in the top 5000 movies?
- * Which production companies tend to produce the best movies, is there a certain production company that creates a best reutrn on investment?
- * What is the relation between popularity of a movie, and the runtime of the movie, do people really tend to prefer two-ish hour movies?
- * What is the relation between genre and budget these top movies, is there a genre that is cheap to produce and always has a good return on investment?
 
 ## Sketches
 
