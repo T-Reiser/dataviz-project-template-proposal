@@ -17,20 +17,24 @@ The following tasks and questions will drive the visualization and interaction d
 ## Prototypes
 
 ## UPDATES
-I have continued updating the top movies data visualization with a better color scheme and additional functionality. My original goal for this project, was to be able to change the display chart to show interesting correlations in the dataset. One of the most interesting aspects of this project was the fact that the orignal Kaggle set included the taglines and keywords that were part of the marketing for all of these top movies. I was originally curious about the overlap for these, however it isnt practical to sort by keywords in a scatterplot, because there is huge variation, and the most common words would grammer articles. Additionally, I was hoping to display the length of these taglines as one of the data feilds, however I found that even sorting by the length doesnt produce an enticing graphical representation. Alot of the information in the dataset is irrelivant for our vizualizations, such as original language, spoken languages, and production origin company. One of the last things I will try is to parse the production companies for each movie, and maybe display the most common across the board. 
 
-I have also been working with the interactive menu to display different dat points based on the axis selected in the drop down menu. This is building upon the interactive menu information we learned about a couple of weeks ago. https://vizhub.com/T-Reiser/f9f8dac03e3b466eb4a0855be8474c11
-![image](https://user-images.githubusercontent.com/44755928/139162343-98709205-2e90-44ca-8577-1e525f9a77e0.png)
+I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours. If I could improve this chart, I would work to fix any oclusion that is occuring with dots overlapping each other. This would hopefully provide more information to the viewer.
 
 I have added converted the scatter plots to be transparent to prevent data occlusion. This verion also improves the X and Y axis labels. This iteration can currently be found at https://vizhub.com/T-Reiser/cf07600ad704409a96d2c251afd7b71b.
 
 ![image](https://user-images.githubusercontent.com/44755928/139132621-fa5113a2-7570-4963-9742-80b108016d24.png)
 
-
-
-I’ve created a proof of concept visualization of this data. It's a scatter plot that shows all 5000 top movies relation between Runtime(X) in minutes and Budget(Y). We see that these movies average a runtime of around 120 minutes. All of the highest budget movies are around the average runtime. No large production studio would finance a really short or long movie, and the highest budget movies are almost exactly two hours. If I could improve this chart, I would work to fix any oclusion that is occuring with dots overlapping each other. This would hopefully provide more information to the viewer.
-
 ![TimevsRevenue](https://user-images.githubusercontent.com/44755928/134382327-76104927-3718-4496-96a1-bf448ae94763.PNG)
+I have continued updating the top movies data visualization with a better color scheme and additional functionality. My original goal for this project, was to be able to change the display chart to show interesting correlations in the dataset. One of the most interesting aspects of this project was the fact that the orignal Kaggle set included the taglines and keywords that were part of the marketing for all of these top movies. I was originally curious about the overlap for these, however it isnt practical to sort by keywords in a scatterplot, because there is huge variation, and the most common words would grammer articles. Additionally, I was hoping to display the length of these taglines as one of the data feilds, however I found that even sorting by the length doesnt produce an enticing graphical representation. Alot of the information in the dataset is irrelivant for our vizualizations, such as original language, spoken languages, and production origin company. One of the last things I will try is to parse the production companies for each movie, and maybe display the most common across the board. 
+
+I have also been working with the interactive menu to display different dat points based on the axis selected in the drop down menu. This is building upon the interactive menu information we learned about a couple of weeks ago. https://vizhub.com/T-Reiser/f9f8dac03e3b466eb4a0855be8474c11
+![image](https://user-images.githubusercontent.com/44755928/139162343-98709205-2e90-44ca-8577-1e525f9a77e0.png)
+
+
+
+
+
+
 
 ## Prototypes
 Based on the examples worked on last week, I think that having drop down menus to select what data is displayed on the X and Y Axis in the scatterplot makes sense as an interaction for this project, specifically because of the large number of data fields selectable.
